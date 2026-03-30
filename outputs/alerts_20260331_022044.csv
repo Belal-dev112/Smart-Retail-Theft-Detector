@@ -1,5 +1,0 @@
-timestamp,frame,track_id,type,severity,message
-02:21:02,26,1,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-02:21:06,8,2,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-02:21:15,13,4,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-02:21:17,11,5,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected

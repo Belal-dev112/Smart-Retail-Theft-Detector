@@ -1,7 +1,0 @@
-timestamp,frame,track_id,type,severity,message
-00:30:08,82,3,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-00:30:10,5,4,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-00:30:19,223,1,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-00:30:21,242,1,LOITERING,HIGH,Loitering 8.0s in restricted zone
-00:30:38,300,1,CROUCHING,HIGH,Person crouching (h/w=0.53)
-00:30:41,394,4,LOITERING,HIGH,Loitering 8.0s in restricted zone

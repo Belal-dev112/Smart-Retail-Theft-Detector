@@ -1,6 +1,0 @@
-timestamp,frame,track_id,type,severity,message
-00:10:14,9,1,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-00:10:14,14,1,CROUCHING,HIGH,Person crouching (h/w=0.52)
-00:10:17,9,3,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
-00:10:17,9,3,CROUCHING,HIGH,Person crouching (h/w=0.48)
-00:10:17,41,2,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
