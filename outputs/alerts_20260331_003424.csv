@@ -1,0 +1,5 @@
+timestamp,frame,track_id,type,severity,message
+00:34:47,26,1,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
+00:34:52,8,2,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
+00:35:07,13,4,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected
+00:35:09,11,5,SUDDEN_MOVEMENT,MEDIUM,Sudden rapid movement detected

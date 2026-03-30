@@ -1,0 +1,28 @@
+# Smart Retail Theft Detection System — Dependencies
+# VIT BYOP Submission
+
+# Core computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Deep learning / detection
+ultralytics>=8.0.0       # YOLOv8
+
+# Pose estimation
+mediapipe>=0.10.0
+
+# UI
+streamlit>=1.32.0
+
+# Utilities
+Pillow>=10.0.0
+scipy>=1.11.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+
+# Optional: GPU tracking
+# deep-sort-realtime>=1.3.2   # uncomment for DeepSORT with ReID
+
+# Optional: GPU acceleration (uncomment for CUDA)
+# torch>=2.0.0
+# torchvision>=0.15.0

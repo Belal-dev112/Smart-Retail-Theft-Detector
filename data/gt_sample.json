@@ -1,0 +1,6 @@
+[
+  {"frame": 45,  "track_id": 1, "type": "LOITERING"},
+  {"frame": 120, "track_id": 2, "type": "CROUCHING"},
+  {"frame": 200, "track_id": 1, "type": "CONCEALMENT"},
+  {"frame": 310, "track_id": 3, "type": "SUDDEN_MOVEMENT"}
+]

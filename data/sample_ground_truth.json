@@ -1,0 +1,7 @@
+[
+  {"frame": 45, "event_type": "loitering", "bbox": [120, 80, 280, 400], "track_id": 1},
+  {"frame": 90, "event_type": "shoplifting", "bbox": [200, 100, 350, 420], "track_id": 2},
+  {"frame": 135, "event_type": "unusual_movement", "bbox": [400, 50, 560, 380], "track_id": 3},
+  {"frame": 200, "event_type": "loitering", "bbox": [50, 200, 200, 460], "track_id": 1},
+  {"frame": 280, "event_type": "shoplifting", "bbox": [310, 120, 490, 440], "track_id": 4}
+]

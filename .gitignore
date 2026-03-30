@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+outputs/*.mp4
+outputs/*.avi
+outputs/heatmap.jpg
+*.pt
+*.weights
+data/videos/
+.DS_Store
