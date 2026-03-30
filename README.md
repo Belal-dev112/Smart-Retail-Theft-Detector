@@ -1,34 +1,34 @@
-# 🔍 Smart Retail Theft Detection System
+#  Smart Retail Theft Detection System
 
 > **VIT BYOP (Build Your Own Project) Submission**  
 > Real-time suspicious activity detection using YOLOv8, DeepSORT tracking, and MediaPipe pose estimation.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This system detects suspicious retail behaviour in CCTV footage using deep learning and computer vision. It operates in **real-time** and supports both **CLI** (mandatory for evaluation) and a **Streamlit UI** (for demonstration).
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🎯 Person Detection | YOLOv8n/s/m with configurable confidence |
-| 🔄 Multi-Object Tracking | IoU-based tracker (DeepSORT-compatible API) |
-| 🧍 Pose Estimation | MediaPipe Pose — skeleton + joint angles |
-| 🚨 Loitering Detection | Time + spatial displacement analysis |
-| 🏃 Sudden Movement | Velocity spike detection |
-| 🙇 Crouching Detection | Bounding-box ratio + knee angle |
-| 🤲 Concealment Detection | Wrist-torso proximity via pose |
-| 🗺 Heatmap | Cumulative movement overlay |
-| 📊 Metrics | Precision, Recall, F1, per class |
-| 📝 Logging | CSV + JSON alert logs |
+|  Person Detection | YOLOv8n/s/m with configurable confidence |
+|  Multi-Object Tracking | IoU-based tracker (DeepSORT-compatible API) |
+|  Pose Estimation | MediaPipe Pose — skeleton + joint angles |
+|  Loitering Detection | Time + spatial displacement analysis |
+|  Sudden Movement | Velocity spike detection |
+|  Crouching Detection | Bounding-box ratio + knee angle |
+|  Concealment Detection | Wrist-torso proximity via pose |
+|  Heatmap | Cumulative movement overlay |
+|  Metrics | Precision, Recall, F1, per class |
+|  Logging | CSV + JSON alert logs |
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Python 3.9+**
 - **OpenCV** — video I/O and drawing
@@ -40,7 +40,7 @@ This system detects suspicious retail behaviour in CCTV footage using deep learn
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 smart_retail_theft_detection/
@@ -69,7 +69,7 @@ smart_retail_theft_detection/
 
 ---
 
-## ⚙ Installation
+##  Installation
 
 ```bash
 # Clone repository
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🖥 CLI Execution (MANDATORY)
+##  CLI Execution (MANDATORY)
 
 ### Basic detection on a video file
 ```bash
@@ -148,7 +148,7 @@ usage: main.py [-h] [--input INPUT] [--output OUTPUT] [--output-dir OUTPUT_DIR]
 
 ---
 
-## 🌐 UI Execution (Streamlit)
+##  UI Execution (Streamlit)
 
 ```bash
 streamlit run app.py
@@ -167,7 +167,7 @@ Then open **http://localhost:8501** in your browser.
 
 ---
 
-## 📊 Detection Classes
+##  Detection Classes
 
 | Class | Severity | Trigger |
 |---|---|---|
@@ -178,7 +178,7 @@ Then open **http://localhost:8501** in your browser.
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 The system computes **per-class** and **macro-average** metrics:
 
@@ -203,7 +203,7 @@ MACRO_AVG             0.8400   0.7725   0.8049
 
 ---
 
-## 📂 Suggested Datasets
+##  Suggested Datasets
 
 | Dataset | Link | Use |
 |---|---|---|
@@ -223,14 +223,6 @@ MACRO_AVG             0.8400   0.7725   0.8049
   yolo export model=yolov8n.pt format=onnx  # for Raspberry Pi / Jetson
   ```
 - **Watch Zone** — `--zone x1 y1 x2 y2` monitors specific shelf area
-
----
-
-## 👤 Author
-
-**[Your Name]** — VIT [Branch], Reg. No. [XXXXXXXX]  
-Submitted for: VIT BYOP Project  
-Academic Year: 2024–25
 
 ---
 
