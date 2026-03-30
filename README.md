@@ -222,4 +222,4 @@ MACRO_AVG             0.8400   0.7725   0.8049
 
 ##  License
 
-MIT License — see `LICENSE`[Link](https://github.com/Belal-dev112/Smart-Retail-Theft-Detector/blob/835c39e7ab25e4677d06698c1b41a051cc90eb47/LICENSE) for details.
+MIT License — see [`LICENSE`](https://github.com/Belal-dev112/Smart-Retail-Theft-Detector/blob/835c39e7ab25e4677d06698c1b41a051cc90eb47/LICENSE) for details.
