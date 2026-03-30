@@ -1,11 +1,5 @@
 #  Smart Retail Theft Detection System
-
-> **VIT BYOP (Build Your Own Project) Submission**  
-> Real-time suspicious activity detection using YOLOv8, DeepSORT tracking, and MediaPipe pose estimation.
-
----
-
-##  Project Overview
+Project Overview
 
 This system detects suspicious retail behaviour in CCTV footage using deep learning and computer vision. It operates in **real-time** and supports both **CLI** (mandatory for evaluation) and a **Streamlit UI** (for demonstration).
 
@@ -157,7 +151,7 @@ streamlit run app.py
 Then open **http://localhost:8501** in your browser.
 
 ### UI Features
-- Upload video file or use webcam
+- Upload a video file or use a webcam
 - Real-time annotated video stream
 - Live stats: FPS, tracks, alert count
 - Alert feed with severity colours
@@ -215,7 +209,7 @@ MACRO_AVG             0.8400   0.7725   0.8049
 
 ---
 
-## 🔮 Bonus Features
+##  Bonus Features
 
 - **Heatmap** — `--heatmap` flag overlays cumulative position density
 - **Edge Deployment** — Export YOLOv8 to ONNX/TFLite:  
