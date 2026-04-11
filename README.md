@@ -215,7 +215,7 @@ MACRO_AVG             0.8400   0.7725   0.8049
 - **Edge Deployment** — Export YOLOv8 to ONNX/TFLite:  
   ```bash
   yolo export model=yolov8n.pt format=onnx  # for Raspberry Pi / Jetson
-  ```
+  ``` 
 - **Watch Zone** — `--zone x1 y1 x2 y2` monitors specific shelf area
 
 ---
